@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('w32App', [
+  .module('auction', [
     'ngRoute'
   ])
   .config(function ($routeProvider) {
