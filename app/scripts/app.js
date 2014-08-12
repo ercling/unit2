@@ -16,11 +16,13 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainCtrl',
+        controllerAs: 'ctrl'
       })
       .when('/search', {
         templateUrl: 'views/search.html',
-        controller: 'SearchCtrl'
+        controller: 'SearchCtrl',
+        controllerAs: 'ctrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
